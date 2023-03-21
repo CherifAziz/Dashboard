@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Bold';
+    src: url(../../public/SF-Pro-Display-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url(../../public/SF-Pro-Display-Medium.otf) format('opentype');
+  }
+
+@font-face {
+  font-family: 'Regular';
+  src: url(../../public/SF-Pro-Display-Regular.otf) format('opentype');
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+body {
+  background-color: #E3E8EF;
+  font-family: 'Regular', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
